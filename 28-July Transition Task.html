@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transition Task</title>
+</head>
+<style type="text/css">
+	body{
+		background-color: #DFFFF3
+	}
+	div{
+		margin-top: 10px;
+	}
+	h1{margin-top: 5px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	}
+.a{
+		width: 85px;
+		height: 110px;
+		background-color: #FFFF06;
+		transition: width, background-color, 1s ease-out 1s;
+		
+	}
+
+.a:hover{
+		width: 825px;
+		height: 110px;
+		background-color: orange;
+	}
+
+.b{
+		width: 85px;
+		height: 110px;
+		background-color: red;
+		transition: width, 3s, background-color 3s;
+		transition-timing-function: linear;
+	}
+.b:hover{
+		width: 685px;
+		height: 110px;
+		background-color: pink;
+	}
+
+.c{
+		width: 85px;
+		height: 110px;
+		background-color: green;
+		transition: width 5s, height 5s;
+		transition-timing-function: ease;
+	}
+
+.c:hover{
+		width: 250px;
+		height: 250px;
+		background-color: #D1FCDC;
+	}	
+.d{
+		width: 85px;
+		height: 110px;
+		background-color: brown;
+		transition: border-radius 2s;
+		transition-timing-function: ease-in-out;
+	}
+.d:hover{
+		width: 250px;
+		height: 110px;
+		background-color: #FDCF7F;
+		border-radius: 80px 0px 80px 0px;
+	}
+.e{
+		width: 85px;
+		height: 110px;
+		background-color: darkmagenta;
+		transition: border;
+		transition-duration: 2s;
+		
+		
+	}
+.e:hover{
+		width: 205px;
+		height: 110px;
+		border: 20px solid black;
+		background-color: #E7D2FD;
+	}
+
+</style>
+<body>
+	<h1><center><u>TRANSITIONS</u></center></h1>
+<div class="a"></div>
+<div class="b"></div>
+<div class="c"></div>
+<div class="d"></div>
+<div class="e"></div>
+<div class="f"></div>
+</body>
+</html>
